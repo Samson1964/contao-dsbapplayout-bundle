@@ -19,7 +19,7 @@ class AppLayout
 {
 	public function getPageLayout(\PageModel $objPage, \LayoutModel &$objLayout, \PageRegular $objPageRegular)
 	{
-		if(!\Input::get('dsbapp'))
+		if(!\Input::get('appId') && !\Input::get('deviceId'))
 			return;
 
 		// create default layout
