@@ -19,7 +19,7 @@ class AppLayout
 {
 	public function getPageLayout(\PageModel $objPage, \LayoutModel &$objLayout, \PageRegular $objPageRegular)
 	{
-		if(!\Input::get('appId') && !\Input::get('deviceId'))
+		if(!\Input::cookie('appId') && !\Input::cookie('deviceId'))
 			return;
 
 		// create default layout

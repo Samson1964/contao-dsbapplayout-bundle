@@ -1,5 +1,9 @@
 # Layout für DSB-App setzen für Contao Changelog
 
+## Version 1.0.1 (2023-06-30)
+
+* Fix: URL-Parameter statt Cookie abgefragt
+
 ## Version 1.0.0 (2023-06-23)
 
 * Add: Cookienamen in Klasse AppLayout -> 'appId' und 'deviceId'
